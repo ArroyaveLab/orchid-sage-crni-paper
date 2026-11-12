@@ -1,0 +1,12 @@
+{
+ "_note": "copy to local/config.json (gitignored); every key is optional. Paths may start with ~ (this user's home). Without a config: sibling checkouts next to this repository (../orchid-sage, ../orchid-data, ../orchid-brand, ../open-tdb, ../PhaseForgePlus) and data/runs/ for the campaign directories. 'hosts' maps the machine labels of the records (studio, spark1..spark4) to this machine's host names; 'private' lists names scripts/check_public.py fails on.",
+ "runs_root": "data/runs",
+ "mcp_runs_root": "data/runs",
+ "orchid_sage": "../orchid-sage",
+ "orchid_data": "../orchid-data",
+ "orchid_brand": "../orchid-brand",
+ "open_tdb": "../open-tdb",
+ "phaseforgeplus": "../PhaseForgePlus",
+ "hosts": {},
+ "private": {"usernames": [], "other_hosts": {}, "ip_prefixes": [], "accounts": []}
+}

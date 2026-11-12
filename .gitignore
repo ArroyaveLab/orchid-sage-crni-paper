@@ -1,0 +1,38 @@
+# LaTeX build files
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.dvi
+*.fdb_latexmk
+*.fls
+*.lof
+*.log
+*.lot
+*.out
+*.run.xml
+*.synctex
+*.synctex.gz
+*.synctex(busy)
+*.toc
+*.xdv
+*-blx.bib
+
+# Output directory for latexmk -outdir=build
+build/
+
+# Editors and OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*~
+
+# arXiv package build (scripts/build_arxiv.sh)
+arxiv/
+arxiv-build/
+arxiv.tar.gz
+.arxiv-old/
+
+# machine-specific configuration (template in local.example/)
+/local/

@@ -1,0 +1,32 @@
+% Markup for the diffs that release.yml makes, passed to latexdiff with
+% --preamble in place of its default markup. Added text is blue, deleted text
+% is red and struck through, and a table cell that is a single number is set
+% with \num.
+\RequirePackage[normalem]{ulem}
+\providecommand{\DIFadd}[1]{{\protect\color{blue}#1}}
+\providecommand{\DIFdel}[1]{{\protect\color{red}\sout{#1}}}
+\providecommand{\DIFaddbegin}{}
+\providecommand{\DIFaddend}{}
+\providecommand{\DIFdelbegin}{}
+\providecommand{\DIFdelend}{}
+\providecommand{\DIFmodbegin}{}
+\providecommand{\DIFmodend}{}
+\providecommand{\DIFaddbeginFL}{}
+\providecommand{\DIFaddendFL}{}
+\providecommand{\DIFdelbeginFL}{}
+\providecommand{\DIFdelendFL}{}
+\providecommand*{\DIFcmidrule}[1]{\cmidrule#1}
+\ExplSyntaxOn
+\tl_new:N \l__diff_tl
+\regex_const:Nn \c__diff_number_regex
+  { \A (\s*) ([+\-]? (?: \d+ (?: \. \d* )? | \. \d+ ) (?: [eE] [+\-]? \d+ )?) (\s*) \Z }
+\cs_new_protected:Npn \__diff_mark:Nn #1#2
+  {
+    \tl_set:Nn \l__diff_tl {#2}
+    \regex_replace_once:NnN \c__diff_number_regex
+      { \1 \c{num} \cB\{ \2 \cE\} \3 } \l__diff_tl
+    \exp_args:NV #1 \l__diff_tl
+  }
+\cs_new_protected:Npn \DIFaddFL #1 { \__diff_mark:Nn \DIFadd {#1} }
+\cs_new_protected:Npn \DIFdelFL #1 { \__diff_mark:Nn \DIFdel {#1} }
+\ExplSyntaxOff

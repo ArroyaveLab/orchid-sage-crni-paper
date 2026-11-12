@@ -1,0 +1,165 @@
+{
+ "figure": "fig_pair_entropy",
+ "kind": "methods figure (computed benchmarks; no ORCHID records, no badge)",
+ "outputs": {
+  "fig_pair_entropy": "174 x 72 mm, cards a (schematic), b, c",
+  "fig_pair_entropy_1col": "83 x 88 mm (single column), a on top, b and c below"
+ },
+ "script": "scripts/fig_pair_entropy.py",
+ "sources": [
+  {
+   "path": "<home>/ScientificRuns/hongliu-chemical-mixing-20261105/results/benchmark_random.json",
+   "sha256": "d620cd8e73d56013e7ddd61eebb3786a5247522b32cb7b8c25484eae94984c55",
+   "role": "random-label benchmark (b)"
+  },
+  {
+   "path": "<home>/ScientificRuns/hongliu-chemical-mixing-20261105/results/benchmark_ordered.json",
+   "sha256": "44072be6208e59506dc8b933bf6655273f372fd4ca72e4f71368aa1cb0a43398",
+   "role": "ordered Bethe-lattice benchmark (c)"
+  }
+ ],
+ "numbers": {
+  "b_random_labels": {
+   "lattice": "z=12",
+   "case": "thermodynamic_limit",
+   "rows": [
+    {
+     "x_B": 0.05,
+     "ideal": 1.650547569902431,
+     "pair_corrected": 1.650547569902431
+    },
+    {
+     "x_B": 0.1,
+     "ideal": 2.702890230011485,
+     "pair_corrected": 2.7028902300114854
+    },
+    {
+     "x_B": 0.15,
+     "ideal": 3.514598908851791,
+     "pair_corrected": 3.5145989088517804
+    },
+    {
+     "x_B": 0.2,
+     "ideal": 4.160577244464866,
+     "pair_corrected": 4.160577244464874
+    },
+    {
+     "x_B": 0.25,
+     "ideal": 4.675514538720706,
+     "pair_corrected": 4.675514538720706
+    },
+    {
+     "x_B": 0.3,
+     "ideal": 5.079008404106073,
+     "pair_corrected": 5.079008404106068
+    },
+    {
+     "x_B": 0.35,
+     "ideal": 5.383170877403192,
+     "pair_corrected": 5.38317087740319
+    },
+    {
+     "x_B": 0.4,
+     "ideal": 5.595730346826327,
+     "pair_corrected": 5.595730346826327
+    },
+    {
+     "x_B": 0.45,
+     "ideal": 5.721504442616497,
+     "pair_corrected": 5.721504442616501
+    },
+    {
+     "x_B": 0.5,
+     "ideal": 5.763146321537762,
+     "pair_corrected": 5.763146321537762
+    },
+    {
+     "x_B": 0.55,
+     "ideal": 5.721504442616497,
+     "pair_corrected": 5.721504442616497
+    },
+    {
+     "x_B": 0.6,
+     "ideal": 5.595730346826327,
+     "pair_corrected": 5.595730346826327
+    },
+    {
+     "x_B": 0.65,
+     "ideal": 5.383170877403192,
+     "pair_corrected": 5.38317087740319
+    },
+    {
+     "x_B": 0.7,
+     "ideal": 5.079008404106073,
+     "pair_corrected": 5.079008404106073
+    },
+    {
+     "x_B": 0.75,
+     "ideal": 4.675514538720706,
+     "pair_corrected": 4.675514538720706
+    },
+    {
+     "x_B": 0.8,
+     "ideal": 4.160577244464866,
+     "pair_corrected": 4.160577244464866
+    },
+    {
+     "x_B": 0.85,
+     "ideal": 3.5145989088517915,
+     "pair_corrected": 3.5145989088517826
+    },
+    {
+     "x_B": 0.9,
+     "ideal": 2.702890230011485,
+     "pair_corrected": 2.702890230011485
+    },
+    {
+     "x_B": 0.95,
+     "ideal": 1.6505475699024317,
+     "pair_corrected": 1.6505475699024368
+    }
+   ],
+   "max_abs_pair_minus_ideal_shown": 1.0658141036401503e-14,
+   "max_abs_pair_minus_ideal_thermodynamic_limit_all": 1.1546319456101628e-14,
+   "max_abs_pair_minus_ideal_finite_all": 0.0034579498683848797
+  },
+  "c_bethe": {
+   "z": 12,
+   "x_B": 0.5,
+   "rows": [
+    {
+     "alpha": -0.6,
+     "exact_excess": -9.615414462437373,
+     "pair_corrected_excess": -9.615414462437373
+    },
+    {
+     "alpha": -0.3,
+     "exact_excess": -2.279852664807423,
+     "pair_corrected_excess": -2.279852664807423
+    },
+    {
+     "alpha": -0.1,
+     "exact_excess": -0.24985127352758693,
+     "pair_corrected_excess": -0.24985127352758693
+    },
+    {
+     "alpha": 0.1,
+     "exact_excess": -0.24985127352758935,
+     "pair_corrected_excess": -0.24985127352758935
+    },
+    {
+     "alpha": 0.3,
+     "exact_excess": -2.279852664807423,
+     "pair_corrected_excess": -2.279852664807423
+    },
+    {
+     "alpha": 0.6,
+     "exact_excess": -9.615414462437377,
+     "pair_corrected_excess": -9.615414462437377
+    }
+   ],
+   "max_abs_pair_minus_exact_all_bethe_rows": 0.0
+  },
+  "units": "J/mol-atom/K"
+ }
+}

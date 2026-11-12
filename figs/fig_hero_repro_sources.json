@@ -1,0 +1,247 @@
+{
+ "figure": "fig_hero_repro",
+ "label": "fig:repro",
+ "size_mm": [
+  171.0,
+  78.0
+ ],
+ "kind": "computed figure (phase diagrams of three TDBs; rerun check results); no ORCHID records, no badge",
+ "data": {
+  "path": "data/hero_repro_crni.json",
+  "sha256": "52c8b0d0685976c75539ae685d70887453b502670eee0a587060dde2ca25885a"
+ },
+ "sources": [
+  {
+   "path": "<orchid-sage>/assessments/crni-paper-fit-step4c-b/evidence/artifact/step4c_b_hingefloor_pick.tdb",
+   "sha256": "3692243331691fd6f48921a805f77ef136a280be8e23a0e454685eb4853f7b78",
+   "role": "TDB, final fit as recorded (pick s4, Mac Studio)"
+  },
+  {
+   "path": "<orchid-sage>/protocols/reproduce/crni-paper-fit-step4c-b-1.0.3-spark1/rerun/step4c_b_hingefloor_pick10a.tdb",
+   "sha256": "9701e1fd6a7597884dbf95f000f7c75ae4065e1663b849b52bc45887839afb5a",
+   "role": "TDB, scripted rerun on a DGX Spark (specific protocol 1.0.3, same science as 1.0.4)"
+  },
+  {
+   "path": "<orchid-sage>/protocols/reproduce/crni-paper-fit-step4c-b-1.0.4-mcp-studio/rerun/step4c_b_hingefloor_pick10a.tdb",
+   "sha256": "910fb9d8cf05811cd1483af287f4839558a1ea90df677af2efa737dabb4d4a81",
+   "role": "TDB, AI-agent rerun through the ORCHID-SAGE MCP server on the Mac Studio (specific protocol 1.0.4)"
+  },
+  {
+   "path": "<orchid-sage>/protocols/reproduce/crni-paper-fit-step4c-b-1.0.3-spark1/reproduce_report.json",
+   "sha256": "177bd7be905fab49476d88b16aa7e7498fe309da15a607b49e0ba6b301022e6e",
+   "role": "DGX Spark rerun: reproduce report (13 checks)"
+  },
+  {
+   "path": "<orchid-sage>/protocols/reproduce/crni-paper-fit-step4c-b-1.0.4-mcp-studio/comparison.json",
+   "sha256": "6ecec98adba8930895cc345d4c8f7aa6a0b3c08987429443b07c6fc95f8637bb",
+   "role": "AI-agent rerun: comparison (13 checks)"
+  },
+  {
+   "path": "<orchid-sage>/protocols/reproduce/crni-paper-fit-step4c-b-1.0.4-mcp-studio/plan_compare.json",
+   "sha256": "9ed4f4d13740a7aaa784968ddb37502dee55c1933ab2f2d265497d74496ddb61",
+   "role": "AI-agent rerun: plan comparison (kinds, host class)"
+  },
+  {
+   "path": "<orchid-sage>/protocols/reproduce/crni-paper-fit-step4c-b-1.0.3-spark1/rerun/thermo_compare.json",
+   "sha256": "5be1f24dac7122843d967118b3e1c524d88a4b562bdf896182e411a195ebb708",
+   "role": "DGX Spark rerun: thermochemistry comparison"
+  },
+  {
+   "path": "<orchid-sage>/protocols/reproduce/crni-paper-fit-step4c-b-1.0.4-mcp-studio/rerun/thermo_compare.json",
+   "sha256": "ca10a4dbfb0a47342d5a8b0993bb6af4e7830a3a96b920a69e324b9c46cf6db7",
+   "role": "AI-agent rerun: thermochemistry comparison"
+  },
+  {
+   "path": "<orchid-sage>/protocols/reproduce/crni-paper-fit-step4c-b-1.0.3-spark1/rerun/pick10a_rerun.json",
+   "sha256": "31fe3cb14e432e240075e29b19739b1590f5725afe64e943567170083eece895",
+   "role": "DGX Spark rerun: 10a pick"
+  },
+  {
+   "path": "<orchid-sage>/protocols/reproduce/crni-paper-fit-step4c-b-1.0.4-mcp-studio/rerun/pick10a_rerun.json",
+   "sha256": "474298df841255aec53ff89e386b7e639435fa5a966436adbe712929fab6253e",
+   "role": "AI-agent rerun: 10a pick"
+  }
+ ],
+ "campaign_code_read_only": {
+  "pd4": {
+   "path": "<home>/ScientificRuns/crni-paper-fit-20261106/scripts/pd4.py",
+   "sha256": "c9261d79490b353510d5c9815e1b0f73833f35eb37a308bdb3fe96844f5310a4"
+  },
+  "model": {
+   "path": "<home>/ScientificRuns/crni-paper-fit-20261106/scripts/model.py",
+   "sha256": "5c470aa6424c760a648937bdc10628d1c49e48bc0f9db6671aaee2fc8a581068"
+  }
+ },
+ "protocols": {
+  "dgx_spark": "crni-paper-fit-step4c-b@1.0.3",
+  "ai_agent": "crni-paper-fit-step4c-b@1.0.4"
+ },
+ "machines": {
+  "dgx_spark": "DGX Spark",
+  "ai_agent": "Mac Studio"
+ },
+ "invariants_K": {
+  "original": [
+   1614.0,
+   860.0
+  ],
+  "dgx_spark": [
+   1614.0,
+   860.0
+  ],
+  "ai_agent": [
+   1614.0,
+   860.0
+  ]
+ },
+ "boundaries_vs_original": {
+  "dgx_spark": {
+   "max_abs_dx": 0.0,
+   "grid_dx": 0.0008333333333333334,
+   "unmatched": []
+  },
+  "ai_agent": {
+   "max_abs_dx": 0.0,
+   "grid_dx": 0.0008333333333333334,
+   "unmatched": []
+  }
+ },
+ "checks": {
+  "dgx_spark": [
+   [
+    "states evaluated",
+    "deterministic",
+    null,
+    true
+   ],
+   [
+    "phase sequence",
+    "deterministic",
+    null,
+    true
+   ],
+   [
+    "pure elements (3)",
+    "deterministic",
+    null,
+    true
+   ],
+   [
+    "objective",
+    "numerical",
+    3.893546818289906e-07,
+    true
+   ],
+   [
+    "pick eligible",
+    "numerical",
+    null,
+    true
+   ],
+   [
+    "eutectic T",
+    "numerical",
+    0.0,
+    true
+   ],
+   [
+    "CrNi$_2$ top T",
+    "numerical",
+    0.0,
+    true
+   ],
+   [
+    "basin hopping",
+    "numerical",
+    3.8608050090260804e-07,
+    true
+   ],
+   [
+    "annealing",
+    "numerical",
+    3.828063199762255e-07,
+    true
+   ],
+   [
+    "thermochemistry",
+    "numerical",
+    4.892815937962425e-05,
+    true
+   ],
+   [
+    "Laplace weight",
+    "numerical",
+    1.285532569283987e-07,
+    true
+   ]
+  ],
+  "ai_agent": [
+   [
+    "states evaluated",
+    "deterministic",
+    null,
+    true
+   ],
+   [
+    "phase sequence",
+    "deterministic",
+    null,
+    true
+   ],
+   [
+    "pure elements (3)",
+    "deterministic",
+    null,
+    true
+   ],
+   [
+    "objective",
+    "numerical",
+    0.0,
+    true
+   ],
+   [
+    "pick eligible",
+    "numerical",
+    null,
+    true
+   ],
+   [
+    "eutectic T",
+    "numerical",
+    0.0,
+    true
+   ],
+   [
+    "CrNi$_2$ top T",
+    "numerical",
+    0.0,
+    true
+   ],
+   [
+    "basin hopping",
+    "numerical",
+    6.366462912410498e-10,
+    true
+   ],
+   [
+    "annealing",
+    "numerical",
+    3.637978807091713e-10,
+    true
+   ],
+   [
+    "thermochemistry",
+    "numerical",
+    0.0,
+    true
+   ],
+   [
+    "Laplace weight",
+    "numerical",
+    0.0,
+    true
+   ]
+  ]
+ }
+}

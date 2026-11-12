@@ -1,0 +1,11 @@
+{
+ "figure": "fig_hero_repro",
+ "orchid_release": "unreleased (set E + private exports)",
+ "labels": {
+  "Experimental states (evidence box and diagram)": [
+   "ORC-SV7H3CNRYS",
+   "ORC-X3KVP7D3PO"
+  ]
+ },
+ "note": "ORC ids of the plotted experimental states of the evidence bundle crni-paper-fit-step4-s1; states without an ORC id are not yet registered (v2027.01 intake)."
+}

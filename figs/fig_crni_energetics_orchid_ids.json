@@ -1,0 +1,65 @@
+{
+ "D1": {
+  "id": "ORC-ECXY5ARLCL",
+  "x_Ni": 0.25,
+  "value": 10.02,
+  "evidence_class": "dft",
+  "sigma": 7.2,
+  "citation": "doi:10.1016/j.calphad.2015.12.007",
+  "label": "A2"
+ },
+ "D2": {
+  "id": "ORC-4AVGOLDRYY.862ddc",
+  "x_Ni": 0.5,
+  "value": 9.15,
+  "evidence_class": "dft",
+  "sigma": 7.2,
+  "citation": "doi:10.1016/j.calphad.2015.12.007",
+  "label": "A2"
+ },
+ "D3": {
+  "id": "ORC-NNQH4SF765",
+  "x_Ni": 0.75,
+  "value": 4.98,
+  "evidence_class": "dft",
+  "sigma": 7.2,
+  "citation": "doi:10.1016/j.calphad.2015.12.007",
+  "label": "A2"
+ },
+ "D4": {
+  "id": "ORC-BJCC23KTCK.7c92d8",
+  "x_Ni": 0.25,
+  "value": -12.69,
+  "evidence_class": "dft",
+  "sigma": 7.2,
+  "citation": "doi:10.1016/j.calphad.2015.12.007",
+  "label": "γ"
+ },
+ "D5": {
+  "id": "ORC-XYCE5GPHM6",
+  "x_Ni": 0.5,
+  "value": -9.03,
+  "evidence_class": "dft",
+  "sigma": 7.2,
+  "citation": "doi:10.1016/j.calphad.2015.12.007",
+  "label": "γ"
+ },
+ "D6": {
+  "id": "ORC-CG6B7EHP2R.127230",
+  "x_Ni": 0.75,
+  "value": -5.79,
+  "evidence_class": "dft",
+  "sigma": 7.2,
+  "citation": "doi:10.1016/j.calphad.2015.12.007",
+  "label": "γ"
+ },
+ "D7": {
+  "id": "ORC-NYY5VGMVQQ.0cb658",
+  "x_Ni": 0.5,
+  "value": -9.719,
+  "evidence_class": "dft",
+  "sigma": 7.2,
+  "citation": "doi:10.1007/s11669-021-00922-9",
+  "label": "fcc"
+ }
+}

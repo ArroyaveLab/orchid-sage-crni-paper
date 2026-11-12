@@ -1,0 +1,12 @@
+{
+ "figure": "fig_orchid_evidence",
+ "release": "provisional (state ids arrive with ORCHID v2027.01)",
+ "labels": {
+  "tile 2 record": {
+   "id": "ORC-SV7H3CNRYS",
+   "pid": "doi:10.1016/j.calphad.2021.102268/p13/text-01/s04#phase_transition",
+   "state_id": "S-5e711ae309"
+  }
+ },
+ "note": "tiles 4-6 plot evidence-bundle states (crni-paper-fit-step4c-b states@1.1.0.json); their ORC links, or the reason a link is missing, are in that file"
+}

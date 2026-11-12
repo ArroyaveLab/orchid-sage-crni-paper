@@ -1,0 +1,390 @@
+{
+ "figure": "fig_verification",
+ "kind": "data figure (ORCHID records, tag provisional; no badge or logo)",
+ "outputs": {
+  "fig_verification": "171 x 114.0 mm, panels a-e in hero cards",
+  "fig_verification_1col_1": "83 x 87.7 mm, hero cards, minimal text: (a) validator, (b) reproduction by step kind; no ORCHID records",
+  "fig_verification_1col_2": "83 x 108.2 mm, hero cards, minimal text: (a) flat direction, (b) log posterior along the path A -> A2, (c) predictions at every start"
+ },
+ "sources": [
+  {
+   "path": "<orchid-sage>/protocols/general/orchid-calphad-fit@2.1.2.yaml",
+   "sha256": "7e782887b184ecbfa6d7d67961dca9e0f4d1abeb5ec7b6dc751f7e9a11144179",
+   "role": "general"
+  },
+  {
+   "path": "<orchid-sage>/protocols/specific/crni-paper-fit-step4c-b@1.0.4.yaml",
+   "sha256": "5f0db3297a3e1e5d8d7747a1e0d8df19dd4b8cb9d4a6a254833e3c56eb8373c7",
+   "role": "specific"
+  },
+  {
+   "path": "<orchid-sage>/protocols/specific/crni-paper-fit-step4c-b@1.0.3.yaml",
+   "sha256": "ee75514ce9046579a5ee41ea24cc674e3ece8cee070a20a0d3f06935e18485cb",
+   "role": "spark_specific"
+  },
+  {
+   "path": "<orchid-sage>/protocols/reproduce/crni-paper-fit-step4c-b-1.0.3-spark1/reproduce_report.json",
+   "sha256": "177bd7be905fab49476d88b16aa7e7498fe309da15a607b49e0ba6b301022e6e",
+   "role": "rerun_report"
+  },
+  {
+   "path": "<orchid-sage>/protocols/reproduce/crni-paper-fit-step4c-b-1.0.3-spark1/rerun/pick10a_rerun.json",
+   "sha256": "31fe3cb14e432e240075e29b19739b1590f5725afe64e943567170083eece895",
+   "role": "rerun_pick"
+  },
+  {
+   "path": "<orchid-sage>/protocols/reproduce/crni-paper-fit-step4c-b-1.0.3-spark1/rerun/evaluation.json",
+   "sha256": "0ca87b219ddd243443d04dc1a9cc93181ce4cb0e2f1c4f6591e94e5ad92c50f3",
+   "role": "rerun_eval"
+  },
+  {
+   "path": "<orchid-sage>/protocols/reproduce/crni-paper-fit-step4c-b-1.0.3-spark1/rerun/thermo_compare.json",
+   "sha256": "5be1f24dac7122843d967118b3e1c524d88a4b562bdf896182e411a195ebb708",
+   "role": "rerun_thermo"
+  },
+  {
+   "path": "<home>/ScientificRuns/crni-paper-fit-20261106/results/uq/modes_step4c_b.json",
+   "sha256": "a1e7f9f23fe8a90df761067ee4e8a00d4ea0ed80f1721751d146e5af6efede6f",
+   "role": "modes"
+  },
+  {
+   "path": "<home>/ScientificRuns/crni-paper-fit-20261106/results/uq/laplace_step4c_b.json",
+   "sha256": "911c92160eac849837897b04dfd4c7cb2d26bb0e2f111f97cfa6c8ca47a16e96",
+   "role": "laplace"
+  },
+  {
+   "path": "<home>/ScientificRuns/crni-paper-fit-20261106/steps/step4c_b_hingefloor/evaluation.json",
+   "sha256": "a219086591a4e81af140446a6f18dcf07336a93a801fc301db4bc8fde068c266",
+   "role": "studio_eval"
+  },
+  {
+   "path": "<orchid-sage>/assessments/crni-paper-fit-step4c-b/evidence/reference_outputs/results/uq/modes_step4c_b@1.1.0.json",
+   "sha256": "039e3a45724238984e514141a279b8c5ad3e3b21839ce851e199a9150e56bf03",
+   "role": "modes_record"
+  },
+  {
+   "path": "<orchid-sage>/assessments/crni-paper-fit-step4c-b/evidence/states@1.2.0.json",
+   "sha256": "90c94274b933f8c9ac0ffbc6c4aa06cf4fbef139e151369947e2f6c200e98ab4",
+   "role": "states"
+  },
+  {
+   "path": "data/validate_orchid-sage_20261107_final.txt",
+   "sha256": "58b8e3b5219d3a36620501e56cc0f1f3c170a625a4d41b3330dc47cf5bd2094b",
+   "role": "validator"
+  },
+  {
+   "path": "data/crni_mode_path.json",
+   "sha256": "f150eaed1aea88effaefdaf10ab44290a923cc2c179dde6ed7862926cbbb17d6",
+   "role": "mode_path"
+  },
+  {
+   "path": "<orchid-sage>/protocols/reproduce/crni-paper-fit-step4c-b-1.0.4-mcp-studio/README.md",
+   "sha256": "613b02c73de7f3e408030e40d108e43c5cd45eb16e6048a089ec7cc16499712f",
+   "role": "mcp_readme"
+  },
+  {
+   "path": "<orchid-sage>/protocols/reproduce/crni-paper-fit-step4c-b-1.0.4-mcp-studio/comparison.json",
+   "sha256": "6ecec98adba8930895cc345d4c8f7aa6a0b3c08987429443b07c6fc95f8637bb",
+   "role": "mcp_comparison"
+  },
+  {
+   "path": "<orchid-sage>/protocols/reproduce/crni-paper-fit-step4c-b-1.0.4-mcp-studio/comparison.md",
+   "sha256": "3cf1722b6d8b6318eaaeba300af9526a8cb3936077f1a8264d5090c0f15bba3d",
+   "role": "mcp_comparison_md"
+  },
+  {
+   "path": "<orchid-sage>/protocols/reproduce/crni-paper-fit-step4c-b-1.0.4-mcp-studio/plan_compare.json",
+   "sha256": "9ed4f4d13740a7aaa784968ddb37502dee55c1933ab2f2d265497d74496ddb61",
+   "role": "mcp_plan_compare"
+  },
+  {
+   "path": "<orchid-sage>/protocols/reproduce/crni-paper-fit-step4c-b-1.0.4-mcp-studio/rerun/pick10a_rerun.json",
+   "sha256": "474298df841255aec53ff89e386b7e639435fa5a966436adbe712929fab6253e",
+   "role": "mcp_pick"
+  },
+  {
+   "path": "<orchid-sage>/protocols/reproduce/crni-paper-fit-step4c-b-1.0.4-mcp-studio/rerun/thermo_compare.json",
+   "sha256": "ca10a4dbfb0a47342d5a8b0993bb6af4e7830a3a96b920a69e324b9c46cf6db7",
+   "role": "mcp_thermo"
+  },
+  {
+   "path": "<orchid-sage>/protocols/reproduce/crni-paper-fit-step4c-b-1.0.4-mcp-studio/rerun/evaluation.json",
+   "sha256": "a219086591a4e81af140446a6f18dcf07336a93a801fc301db4bc8fde068c266",
+   "role": "mcp_eval"
+  },
+  {
+   "path": "<orchid-sage>/protocols/reproduce/crni-paper-fit-step4c-b-1.0.4-mcp-studio/session/PROMPT.txt",
+   "sha256": "d656d22fab5ba6a49f0a6d3465a7407ed0f956eb662ab20d2b0a57e6141142c0",
+   "role": "mcp_prompt"
+  },
+  {
+   "path": "<orchid-sage>/protocols/reproduce/crni-paper-fit-step4c-b-1.0.4-mcp-studio/session/mcp-only.json",
+   "sha256": "4163d79a61aac9be6042cd8d21e9cae74e764cfef5ddccc80c5361034e1a3475",
+   "role": "mcp_config"
+  }
+ ],
+ "numbers": {
+  "general_steps": 45,
+  "supply_links": 120,
+  "file_refs_in_specific": 116,
+  "schema": "orchid-assessment-schema@1.0.0-draft.2",
+  "validator_errors_total": 0,
+  "validator_warnings_total": 0,
+  "validator_errors_listed": [],
+  "validator_errors_for_these_protocols": [],
+  "staged_files": null,
+  "states": 695,
+  "phase_sequence": [
+   0,
+   99
+  ],
+  "checks_pass_spark": [
+   13,
+   13
+  ],
+  "checks_by_kind": {
+   "spark": {
+    "deterministic": 5,
+    "numerical": 8
+   },
+   "mcp": {
+    "deterministic": 5,
+    "numerical": 8
+   }
+  },
+  "numerical_diff_over_tol": {
+   "objective of the 10a pick": 3.893546818289906e-07,
+   "basin-hopping best": 3.8608050090260804e-07,
+   "dual-annealing best": 3.828063199762255e-07,
+   "eutectic temperature": 0.0,
+   "CrNi$_2$ top temperature": 0.0,
+   "thermochemistry (22 datasets)": 4.892815937962425e-05,
+   "Laplace weight of mode A": 1.285532569283987e-07
+  },
+  "notes_diff_over_tol": {
+   "parameters, rerun pick vs recorded": 0.038727825484722686,
+   "parameters, recorded mode A2 vs A": 5.915098334440913
+  },
+  "mcp_rerun": {
+   "host": "Mac Studio",
+   "machine": "arm64",
+   "label": "Mac Studio, AI agent through the orchid-sage MCP server (and read-only file tools)",
+   "created": "2026-11-07T17:46:32-0600",
+   "compared": 13,
+   "pass": true,
+   "staged_files": 446,
+   "states_evaluated_sha256": "cf2c98793814d32c0b5d58a4347914e8ab9b11e7a337c43afd0154ae0b520940",
+   "phase_sequence": [
+    0,
+    99
+   ],
+   "numerical_diff_over_tol": {
+    "objective of the 10a pick": 0.0,
+    "basin-hopping best": 6.366462912410498e-10,
+    "dual-annealing best": 3.637978807091713e-10,
+    "eutectic temperature": 0.0,
+    "CrNi$_2$ top temperature": 0.0,
+    "thermochemistry (22 datasets)": 0.0,
+    "Laplace weight of mode A": 0.0
+   },
+   "parameters_rerun_pick_vs_recorded": 1.4974948407224058e-05,
+   "pick": "s4_perturbed",
+   "pick_mode": "A"
+  },
+  "pick_spark": "s1_perturbed",
+  "pick_mode_spark": "A",
+  "flat_plane": [
+   "L1bcc_a",
+   "L1fcc_a"
+  ],
+  "A2_minus_A": {
+   "L0liq_a": 1.5876,
+   "L0liq_b": 0.0002,
+   "L1liq_a": 2.4741,
+   "L1liq_b": 0.0015,
+   "L0bcc_a": 130.7642,
+   "L0bcc_b": -0.0795,
+   "L1bcc_a": -286.0572,
+   "L1bcc_b": 0.1775,
+   "L0fcc_a": -102.4626,
+   "L0fcc_b": 0.0661,
+   "L1fcc_a": 294.1772,
+   "L1fcc_b": -0.1597,
+   "CrNi2_a": 19.8973,
+   "CrNi2_b": -0.0989
+  },
+  "dlogpost_A_A2": 0.00451197527218028,
+  "laplace_weight_A": 0.7660570156257861,
+  "mode_path": {
+   "logpost_A": -5657.288636859774,
+   "logpost_A2": -5657.293148835046,
+   "dlogpost_A2_minus_A": -0.00451197527218028,
+   "min_on_0_1": {
+    "t": 0.75,
+    "logpost": -5657.294027597467,
+    "dlogpost_vs_A": -0.00539073769323295
+   },
+   "barrier_vs_higher_end": -0.00539073769323295,
+   "barrier_vs_lower_end": -0.0008787624210526701,
+   "T_eut_0p1K_range_0_1": [
+    1612.4,
+    1612.4
+   ],
+   "T_CrNi2_0p1K_range_0_1": [
+    860.8,
+    860.8
+   ],
+   "T_eut_2K_set": [
+    1614.0
+   ],
+   "T_CrNi2_2K_set": [
+    860.0
+   ],
+   "topology_ok_all": false
+  },
+  "objective_tol": 0.01,
+  "starts_by_machine_and_mode": {
+   "Studio/A": 7,
+   "Studio/A2": 1,
+   "spark/A": 5,
+   "spark/A2": 3
+  },
+  "T_eut_ref": 1614.0,
+  "T_CrNi2_ref": 860.0,
+  "T_tol": 2,
+  "orchid": {
+   "ORC-SV7H3CNRYS": 1618.0,
+   "ORC-X3KVP7D3PO": 863.0
+  },
+  "starts": [
+   {
+    "machine": "Studio",
+    "start": "s4_perturbed",
+    "mode": "A",
+    "d": null,
+    "Te": 1614.0,
+    "Tc": 860.0
+   },
+   {
+    "machine": "Studio",
+    "start": "s1_perturbed",
+    "mode": "A",
+    "d": null,
+    "Te": 1614.0,
+    "Tc": 860.0
+   },
+   {
+    "machine": "Studio",
+    "start": "s3_perturbed",
+    "mode": "A",
+    "d": null,
+    "Te": 1614.0,
+    "Tc": 860.0
+   },
+   {
+    "machine": "Studio",
+    "start": "s2_perturbed",
+    "mode": "A",
+    "d": null,
+    "Te": 1614.0,
+    "Tc": 860.0
+   },
+   {
+    "machine": "Studio",
+    "start": "s0_start",
+    "mode": "A",
+    "d": null,
+    "Te": 1614.0,
+    "Tc": 860.0
+   },
+   {
+    "machine": "Studio",
+    "start": "s6_perturbed",
+    "mode": "A",
+    "d": null,
+    "Te": 1614.0,
+    "Tc": 860.0
+   },
+   {
+    "machine": "Studio",
+    "start": "s7_perturbed",
+    "mode": "A",
+    "d": null,
+    "Te": 1614.0,
+    "Tc": 860.0
+   },
+   {
+    "machine": "Studio",
+    "start": "s5_perturbed",
+    "mode": "A2",
+    "d": null,
+    "Te": 1614.0,
+    "Tc": 860.0
+   },
+   {
+    "machine": "spark",
+    "start": "s1_perturbed",
+    "mode": "A",
+    "d": null,
+    "Te": 1614.0,
+    "Tc": 860.0
+   },
+   {
+    "machine": "spark",
+    "start": "s2_perturbed",
+    "mode": "A",
+    "d": null,
+    "Te": 1614.0,
+    "Tc": 860.0
+   },
+   {
+    "machine": "spark",
+    "start": "s3_perturbed",
+    "mode": "A",
+    "d": null,
+    "Te": 1614.0,
+    "Tc": 860.0
+   },
+   {
+    "machine": "spark",
+    "start": "s6_perturbed",
+    "mode": "A",
+    "d": null,
+    "Te": 1614.0,
+    "Tc": 860.0
+   },
+   {
+    "machine": "spark",
+    "start": "s7_perturbed",
+    "mode": "A",
+    "d": null,
+    "Te": 1614.0,
+    "Tc": 860.0
+   },
+   {
+    "machine": "spark",
+    "start": "s4_perturbed",
+    "mode": "A2",
+    "d": null,
+    "Te": 1614.0,
+    "Tc": 860.0
+   },
+   {
+    "machine": "spark",
+    "start": "s5_perturbed",
+    "mode": "A2",
+    "d": null,
+    "Te": 1614.0,
+    "Tc": 860.0
+   },
+   {
+    "machine": "spark",
+    "start": "s0_start",
+    "mode": "A2",
+    "d": null,
+    "Te": 1614.0,
+    "Tc": 860.0
+   }
+  ]
+ }
+}

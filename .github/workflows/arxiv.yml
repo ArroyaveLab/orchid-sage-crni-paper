@@ -1,0 +1,65 @@
+name: arXiv package
+
+# Builds the arXiv package (prepared, not submitted) and proves that it
+# compiles on its own with pdflatex, as arXiv does, after checking the repository
+# for local information. It runs on pushes to main (Overleaf) and outline that
+# touch the package build, the paper sources, data or scripts, and by
+# hand (gh workflow run arxiv.yml --ref outline) once the file is on the
+# default branch, which workflow_dispatch requires.
+
+on:
+  push:
+    branches: [main, outline]
+    paths:
+      - "**.tex"
+      - "data/**"
+      - "scripts/**"
+      - ".public-allow"
+      - "**.bib"
+      - "**.cls"
+      - "figs/**"
+      - "scripts/build_arxiv.sh"
+      - "scripts/arxiv_flatten.py"
+      - ".github/workflows/arxiv.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  arxiv:
+    runs-on: ubuntu-latest
+    container: texlive/texlive:latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Python for the flattener
+        run: |
+          command -v python3 || (apt-get update && apt-get install -y --no-install-recommends python3)
+
+      - name: No local information in the repository
+        # home and scratch paths, user and host names, addresses, session ids, credentials (accepted forms with reasons
+        # in .public-allow); this machine's own names are checked locally from local/config.json
+        run: python3 scripts/check_public.py .
+
+      - name: Build and test the package
+        run: bash scripts/build_arxiv.sh
+
+      - name: Upload the package
+        uses: actions/upload-artifact@v7
+        with:
+          name: arxiv-package
+          path: arxiv.tar.gz
+          if-no-files-found: error
+
+      - name: Upload the standalone PDF and the report
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: arxiv-build
+          path: |
+            arxiv-build/main_arxiv.pdf
+            arxiv-build/REPORT.txt
+            arxiv-build/standalone/main.log
+            arxiv-build/bib/main.blg
+          if-no-files-found: warn

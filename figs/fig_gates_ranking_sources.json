@@ -1,0 +1,76 @@
+{
+ "figure": "fig_gates_ranking",
+ "kind": "schematic (no data; no badge)",
+ "sources": [
+  {
+   "path": "<orchid-sage>/protocols/general/orchid-calphad-fit@2.1.2.yaml",
+   "sha256": "7e782887b184ecbfa6d7d67961dca9e0f4d1abeb5ec7b6dc751f7e9a11144179",
+   "role": "general"
+  }
+ ],
+ "gates": {
+  "G1_software_build": [
+   "verify_build"
+  ],
+  "G2_pure_elements": [
+   "oneshot_diagram",
+   "pick_liquidus",
+   "physics_checks"
+  ],
+  "G3_data_consistency_run": [
+   "data_consistency"
+  ],
+  "G4_exclusions_present": [
+   "exclusions_every_state"
+  ],
+  "G5_trajectory_recorded": [
+   "record_trajectory"
+  ],
+  "G6_no_orphan": [
+   "specific_protocol"
+  ],
+  "G7_inputs_hashed": [
+   "specific_protocol"
+  ],
+  "G8_dashboard_present": [
+   "dashboard"
+  ],
+  "G9_independent_rerun": [
+   "independent_rerun"
+  ]
+ },
+ "ranking": {
+  "R1_plausible_energies": [
+   "pick_liquidus",
+   "pick_thermo",
+   "pick_solid",
+   "final_pick"
+  ],
+  "R2_topology": [
+   "pick_liquidus",
+   "pick_thermo",
+   "pick_solid",
+   "final_pick"
+  ],
+  "R3_quantitative": [
+   "pick_liquidus",
+   "pick_thermo",
+   "pick_solid",
+   "final_pick"
+  ]
+ },
+ "decision": {
+  "date": "2026-10-31",
+  "who": "PI",
+  "decision": "rank fits and pick the most reasonable one; no pass/fail gates on fits",
+  "why": "strict criteria rejected all 15 Co-Ga fits",
+  "source": "memory rank-models-pick-reasonable",
+  "quote": "We should just rank models and pick the most reasonable one."
+ },
+ "gate_status": "none recorded for Cr-Ni; boxes drawn empty",
+ "outputs": {
+  "fig_gates_ranking": "174 x 79.9 mm, hero cards",
+  "fig_gates_ranking_1col": "84 x 81.2 mm (a above b), minimal text; step names, thresholds, clauses and the PI decision in the caption"
+ },
+ "why_schematic": "no R1->R2->R3 ranking of candidate fits is recorded for Cr-Ni; per-step start rankings in step 4c-b are one mode; the step-4 variant comparison was decided by the PI on the hinge floor"
+}

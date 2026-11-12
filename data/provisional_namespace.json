@@ -1,0 +1,10 @@
+{
+ "generated": "2026-11-07",
+ "rule": "orchid_ids.new_dataset_uuid (uuid4), once per frozen evidence bundle; alias to the bundle Zenodo DOI or to the released ORCHID ids at intake (ORCHID-SAGE docs/ID_SCHEME.md, sections 6 and 7)",
+ "artifact": "crni-paper-fit-step4c-b",
+ "bundle_version": "1.2.0",
+ "bundle_sha256": "2292101a9d126fb797038990ac45205a42b158dcd51e21d741eed364b15999f6",
+ "orcid": "0000-0001-7548-8686",
+ "dataset_uuid": "93485c57-c1d0-4264-bd60-93a56a517d0a",
+ "namespace": "local:0000-0001-7548-8686/93485c57-c1d0-4264-bd60-93a56a517d0a"
+}

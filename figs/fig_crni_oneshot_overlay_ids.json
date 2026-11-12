@@ -1,0 +1,221 @@
+{
+ "assessed": {
+  "A1": {
+   "id": "aspa-2e53a5a5989683f8",
+   "T": 1577.012103,
+   "x_Ni": 0.1038475303,
+   "kind": "single",
+   "phases": [
+    "BCC_A2"
+   ]
+  },
+  "A2": {
+   "id": "aspa-353b9ffbb8dbf6a9",
+   "T": 818.512103,
+   "x_Ni": 0.3170770122,
+   "kind": "two_phase",
+   "phases": [
+    "BCC_A2",
+    "FCC_A1"
+   ]
+  },
+  "A3": {
+   "id": "aspa-7b92add114110a2f",
+   "T": 1253.012103,
+   "x_Ni": 0.7895855357,
+   "kind": "single",
+   "phases": [
+    "FCC_A1"
+   ]
+  },
+  "A4": {
+   "id": "aspa-1a191ce9edb5af77",
+   "T": 1168.012103,
+   "x_Ni": 0.333594789,
+   "kind": "two_phase",
+   "phases": [
+    "BCC_A2",
+    "FCC_A1"
+   ]
+  },
+  "A5": {
+   "id": "aspa-0e8055991642b840",
+   "T": 1662.512103,
+   "x_Ni": 0.6819697173,
+   "kind": "two_phase",
+   "phases": [
+    "FCC_A1",
+    "LIQUID"
+   ]
+  },
+  "A6": {
+   "id": "aspa-4fa6130e0abf4ba7",
+   "T": 1822.012103,
+   "x_Ni": 0.2209735837,
+   "kind": "two_phase",
+   "phases": [
+    "BCC_A2",
+    "LIQUID"
+   ]
+  },
+  "A7": {
+   "id": "aspa-a3d958dbc5188cab",
+   "T": 1945.012103,
+   "x_Ni": 0.5798598245,
+   "kind": "single",
+   "phases": [
+    "LIQUID"
+   ]
+  }
+ },
+ "temperatures": {
+  "T1": {
+   "id": "ORC-42HR6B6LUU.3bf076",
+   "property": "TRANSITION_TEMPERATURE",
+   "T": 2180.0,
+   "evidence_class": "model",
+   "phases": [
+    "liquid"
+   ],
+   "reaction": null,
+   "source_system": "CR-NI",
+   "citation": null
+  },
+  "T2": {
+   "id": "ORC-XBIQHO5JWX",
+   "property": "TRANSITION_TEMPERATURE",
+   "T": 2180.0,
+   "evidence_class": "experimental",
+   "phases": [
+    "liquid"
+   ],
+   "reaction": null,
+   "source_system": "CR-NI",
+   "citation": null
+  },
+  "T3": {
+   "id": "ORC-42HR6B6LUU.0028e2",
+   "property": "TRANSITION_TEMPERATURE",
+   "T": 2136.0,
+   "evidence_class": "model",
+   "phases": [
+    "liquid"
+   ],
+   "reaction": null,
+   "source_system": "CR-NI",
+   "citation": null
+  },
+  "T4": {
+   "id": "ORC-UWNYLPUNSF",
+   "property": "TRANSITION_TEMPERATURE",
+   "T": 2136.0,
+   "evidence_class": "experimental",
+   "phases": [
+    "liquid"
+   ],
+   "reaction": null,
+   "source_system": "CR-NI",
+   "citation": null
+  },
+  "T5": {
+   "id": "ORC-O24YICU5WD",
+   "property": "TRANSITION_TEMPERATURE",
+   "T": 2136.0,
+   "evidence_class": "model",
+   "phases": [
+    "bcc",
+    "liquid"
+   ],
+   "reaction": null,
+   "source_system": "CR-NI",
+   "citation": null
+  },
+  "T6": {
+   "id": "ORC-2M4FWURZF3",
+   "property": "TRANSITION_TEMPERATURE",
+   "T": 1873.0,
+   "evidence_class": "experimental",
+   "phases": [
+    "bcc",
+    "liquid"
+   ],
+   "reaction": null,
+   "source_system": "CR-NI",
+   "citation": null
+  },
+  "T7": {
+   "id": "ORC-SV7H3CNRYS",
+   "property": "INVARIANT_TEMPERATURE",
+   "T": 1618.0,
+   "evidence_class": "experimental",
+   "phases": [
+    "liquid",
+    "bcc",
+    "fcc"
+   ],
+   "reaction": null,
+   "source_system": "CR-NI",
+   "citation": null
+  },
+  "T8": {
+   "id": "ORC-FWWPHXWR5Z",
+   "property": "TRANSITION_TEMPERATURE",
+   "T": 863.0,
+   "evidence_class": "model",
+   "phases": [
+    "CrNi2"
+   ],
+   "reaction": null,
+   "source_system": "CR-NI",
+   "citation": null
+  },
+  "T9": {
+   "id": "ORC-FWFLDARLZM.cef5da",
+   "property": "TRANSITION_TEMPERATURE",
+   "T": 820.0,
+   "evidence_class": "model",
+   "phases": [
+    "CrNi2"
+   ],
+   "reaction": null,
+   "source_system": "CR-NI",
+   "citation": null
+  },
+  "T10": {
+   "id": "ORC-FWFLDARLZM.fbcce2",
+   "property": "TRANSITION_TEMPERATURE",
+   "T": 807.0,
+   "evidence_class": "model",
+   "phases": [
+    "CrNi2"
+   ],
+   "reaction": null,
+   "source_system": "CR-NI",
+   "citation": null
+  },
+  "T11": {
+   "id": "ORC-XJ6BSXJZ4T",
+   "property": "TRANSITION_TEMPERATURE",
+   "T": 633.0,
+   "evidence_class": "experimental",
+   "phases": [
+    "fcc"
+   ],
+   "reaction": null,
+   "source_system": "CR-NI",
+   "citation": null
+  },
+  "T12": {
+   "id": "ORC-AJ4EQOMP2O",
+   "property": "INVARIANT_TEMPERATURE",
+   "T": 611.0,
+   "evidence_class": "model",
+   "phases": [
+    "CrNi2"
+   ],
+   "reaction": null,
+   "source_system": "CR-NI",
+   "citation": null
+  }
+ }
+}

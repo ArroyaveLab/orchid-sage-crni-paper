@@ -1,0 +1,52 @@
+{
+ "figure": "fig_crni_standard",
+ "kind": "schematic (no ORCHID records plotted; no badge)",
+ "sources": [
+  {
+   "path": "<orchid-sage>/protocols/specific/crni-paper-fit-step4c-b@1.0.4.yaml",
+   "sha256": "5f0db3297a3e1e5d8d7747a1e0d8df19dd4b8cb9d4a6a254833e3c56eb8373c7",
+   "role": "specific"
+  },
+  {
+   "path": "<orchid-sage>/protocols/general/orchid-calphad-fit@2.1.2.yaml",
+   "sha256": "7e782887b184ecbfa6d7d67961dca9e0f4d1abeb5ec7b6dc751f7e9a11144179",
+   "role": "general"
+  },
+  {
+   "path": "<orchid-sage>/assessments/crni-paper-fit-step4c-b/evidence/states@1.2.0.json",
+   "sha256": "90c94274b933f8c9ac0ffbc6c4aa06cf4fbef139e151369947e2f6c200e98ab4",
+   "role": "states"
+  },
+  {
+   "path": "<orchid-sage>/sage_mcp/server.py",
+   "sha256": "5a7ca74402f0b2b353b2a8d80df1d6e9048a5e80c15ca01fe90a8036488a307a",
+   "role": "mcp"
+  }
+ ],
+ "counts": {
+  "general_sections": 7,
+  "general_steps": 45,
+  "step_kinds": {
+   "judgement": 9,
+   "deterministic": 23,
+   "numerical": 13
+  },
+  "specific_input_files": 28,
+  "runs": 16,
+  "run_cards": 13,
+  "decisions": 47,
+  "decisions_by_who": {
+   "PI": 20,
+   "agent": 27
+  },
+  "overrides": 18,
+  "states": 695,
+  "runs_with_general_step (prov:hadPlan)": 16,
+  "overrides_conforming": 16,
+  "general_protocol": "orchid-calphad-fit@2.1.2",
+  "specific_protocol": "crni-paper-fit-step4c-b@1.0.4",
+  "crate_box": "Workflow Run RO-Crate",
+  "crate_note": "nothing in the figure is read from the RO-Crate; the crate box is generic",
+  "tdb_sha256": "3692243331691fd6f48921a805f77ef136a280be8e23a0e454685eb4853f7b78"
+ }
+}

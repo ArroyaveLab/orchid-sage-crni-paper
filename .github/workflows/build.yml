@@ -1,0 +1,47 @@
+name: Build PDF
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "**.tex"
+      - "**.bib"
+      - "**.cls"
+      - "figs/**"
+      - "latexmkrc"
+      - ".github/workflows/build.yml"
+      - "!.github/latexdiff-preamble.tex"
+  pull_request:
+    paths:
+      - "**.tex"
+      - "**.bib"
+      - "**.cls"
+      - "figs/**"
+      - "latexmkrc"
+      - ".github/workflows/build.yml"
+      - "!.github/latexdiff-preamble.tex"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Compile the manuscript and appendices
+        uses: xu-cheng/latex-action@v4
+        with:
+          root_file: main.tex
+          compiler: latexmk
+          args: -pdf -Werror -file-line-error -halt-on-error -interaction=nonstopmode
+          post_compile: latexmk -c
+
+      - name: Upload the paper
+        uses: actions/upload-artifact@v7
+        with:
+          path: main.pdf
+          archive: false
+          if-no-files-found: error

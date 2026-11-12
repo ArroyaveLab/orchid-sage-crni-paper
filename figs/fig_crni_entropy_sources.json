@@ -1,0 +1,163 @@
+{
+ "figure": "fig_crni_entropy",
+ "kind": "computed figure (MLIP molecular dynamics; no ORCHID records, no badge)",
+ "outputs": {
+  "fig_crni_entropy": "174 x 120 mm, panels a-d in hero cards, legends below the axes",
+  "fig_crni_entropy_1col": "83 x 90 mm, panels a-d, minimal text (details in the caption)"
+ },
+ "script": "scripts/fig_entropy.py",
+ "sources": [
+  {
+   "path": "<home>/ScientificRuns/crni-phaseforge-20261105/results/liquid_excess_entropy.json",
+   "sha256": "8f8c1869df94e0ae7bad683d5a6500341460a3a4b85a604abc73ed6af1aab082",
+   "role": "excess_entropy"
+  },
+  {
+   "path": "<home>/ScientificRuns/crni-phaseforge-20261105/results/liquid_ideal_mixing_check.json",
+   "sha256": "7df7b32826ab40becdefca9579cb4cdd750b2d1c6380d6b5ccfa8446c675a043",
+   "role": "ideal_mixing_check"
+  }
+ ],
+ "numbers": {
+  "states": {
+   "Cr75Ni25_N108_T2200": {
+    "x_Ni": 0.25,
+    "T_K": 2200,
+    "S_excess_total": -0.1368960358414549,
+    "S_excess_total_u": 0.20503700498866223,
+    "S_vib_excess": -0.13684340451018073,
+    "S_vib_excess_SE": 0.20503333183098932,
+    "S_chem_excess": -5.263133127418122e-05,
+    "S_chem_excess_u": 0.0012272949947409384,
+    "all_states_liquid": true
+   },
+   "Cr50Ni50_N108_T2200": {
+    "x_Ni": 0.5,
+    "T_K": 2200,
+    "S_excess_total": -0.2561065338314634,
+    "S_excess_total_u": 0.2242046429887408,
+    "S_vib_excess": -0.25389504987107614,
+    "S_vib_excess_SE": 0.22415037800233395,
+    "S_chem_excess": -0.0022114839603872777,
+    "S_chem_excess_u": 0.004932542865451615,
+    "all_states_liquid": true
+   },
+   "Cr25Ni75_N108_T2200": {
+    "x_Ni": 0.75,
+    "T_K": 2200,
+    "S_excess_total": -0.6775759724681703,
+    "S_excess_total_u": 0.23761148849737843,
+    "S_vib_excess": -0.6536857799310667,
+    "S_vib_excess_SE": 0.23739319321712601,
+    "S_chem_excess": -0.02389019253710353,
+    "S_chem_excess_u": 0.010182891540033186,
+    "all_states_liquid": true
+   },
+   "Cr75Ni25_N108_T1900": {
+    "x_Ni": 0.25,
+    "T_K": 1900,
+    "S_excess_total": -0.8371225505536815,
+    "S_excess_total_u": 0.22249944051313172,
+    "S_vib_excess": -0.8351014769231888,
+    "S_vib_excess_SE": 0.222483853409314,
+    "S_chem_excess": -0.0020210736304926446,
+    "S_chem_excess_u": 0.00263362882721193,
+    "all_states_liquid": true
+   },
+   "Cr50Ni50_N108_T1900": {
+    "x_Ni": 0.5,
+    "T_K": 1900,
+    "S_excess_total": -0.9820299329546123,
+    "S_excess_total_u": 0.2891154494765592,
+    "S_vib_excess": -0.9820171755401219,
+    "S_vib_excess_SE": 0.28910149330903656,
+    "S_chem_excess": -1.2757414490358367e-05,
+    "S_chem_excess_u": 0.0028407204223461664,
+    "all_states_liquid": true
+   },
+   "Cr25Ni75_N108_T1900": {
+    "x_Ni": 0.75,
+    "T_K": 1900,
+    "S_excess_total": -0.9999291414569222,
+    "S_excess_total_u": 0.2904668274033601,
+    "S_vib_excess": -0.995779654437996,
+    "S_vib_excess_SE": 0.2895571496211929,
+    "S_chem_excess": -0.004149487018926253,
+    "S_chem_excess_u": 0.02297030528799132,
+    "all_states_liquid": true
+   }
+  },
+  "ideal_mixing_check": {
+   "Cr75Ni25_N108_T2200": {
+    "x_Ni": 0.25,
+    "T_K": 2200,
+    "S_ideal": 4.675514538720706,
+    "S_chem_pair_shuffled": 4.6736474027633035,
+    "S_chem_excess_shuffled": -0.001867135957402121,
+    "block_SE": 0.0001822030573988462
+   },
+   "Cr50Ni50_N108_T2200": {
+    "x_Ni": 0.5,
+    "T_K": 2200,
+    "S_ideal": 5.763146321537762,
+    "S_chem_pair_shuffled": 5.761053016376451,
+    "S_chem_excess_shuffled": -0.0020933051613109535,
+    "block_SE": 0.00027335255836263904
+   },
+   "Cr25Ni75_N108_T2200": {
+    "x_Ni": 0.75,
+    "T_K": 2200,
+    "S_ideal": 4.675514538720706,
+    "S_chem_pair_shuffled": 4.67279736981147,
+    "S_chem_excess_shuffled": -0.0027171689092356506,
+    "block_SE": 0.0004930459689152083
+   },
+   "Cr75Ni25_N108_T1900": {
+    "x_Ni": 0.25,
+    "T_K": 1900,
+    "S_ideal": 4.675514538720706,
+    "S_chem_pair_shuffled": 4.673582894266741,
+    "S_chem_excess_shuffled": -0.001931644453964485,
+    "block_SE": 0.0004928461766648911
+   },
+   "Cr50Ni50_N108_T1900": {
+    "x_Ni": 0.5,
+    "T_K": 1900,
+    "S_ideal": 5.763146321537762,
+    "S_chem_pair_shuffled": 5.759904967537834,
+    "S_chem_excess_shuffled": -0.00324135399992729,
+    "block_SE": 0.0006993900104605291
+   },
+   "Cr25Ni75_N108_T1900": {
+    "x_Ni": 0.75,
+    "T_K": 1900,
+    "S_ideal": 4.675514538720706,
+    "S_chem_pair_shuffled": 4.673137164754757,
+    "S_chem_excess_shuffled": -0.0023773739659491864,
+    "block_SE": 0.00039606194212717344
+   }
+  },
+  "ideal_mixing_criterion": "|S_chem,ex(random labels)| < 0.05 J/mol-atom/K",
+  "ideal_mixing_passed": true,
+  "finite_size": {
+   "state": "Cr50Ni50 2200 K",
+   "S108_vib": 86.95930321645508,
+   "S864_vib": 87.34944038626648,
+   "relative_difference_percent": 0.446639575578478,
+   "pass_5_percent": true,
+   "S_chem_excess_N108": -0.0022114839603872777,
+   "S_chem_excess_N864": -0.00010657676810804172,
+   "S_vib_excess_N864_not_formed": "no 864-atom pure references (protocol: one composition only)"
+  },
+  "S_vib_size_check": {
+   "Cr50Ni50_N108_T2200": {
+    "S_vib_full_3ps": 86.95930321645508,
+    "S_vib_block_SE": 0.20071190071259098
+   },
+   "Cr50Ni50_N864_T2200": {
+    "S_vib_full_3ps": 87.34944038626648,
+    "S_vib_block_SE": 0.04795313616241761
+   }
+  }
+ }
+}

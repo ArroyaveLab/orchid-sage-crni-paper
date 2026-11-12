@@ -1,0 +1,51 @@
+# python3 protocols/tools/validate.py, orchid-sage 29453a5ff973597470b32243aef3f8cecf1d06d9, run 2026-11-08T01:23:44Z (read-only)
+  general/orchid-calphad-fit@2.0.0.yaml $.rationale_document: pinned text of <orchid-sage>/docs/fit_protocol.md resolved by hash to docs/fit_protocol@2.0.0.md
+  general/orchid-calphad-fit@2.1.0.yaml $.rationale_document: pinned text of <orchid-sage>/docs/fit_protocol.md resolved by hash to docs/fit_protocol@2.1.0.md
+ORCHID protocol validator (orchid-assessment-schema 1.0.0-draft.2)
+documents: 41 | file references: 3446 (sha256 verified 3444, remote-record only 0, restricted by hash 15) | steps: 183 | pinned text resolved to a frozen version: 2
+  general/orchid-calphad-fit@2.0.0.yaml: general_protocol orchid-calphad-fit@2.0.0
+  general/orchid-calphad-fit@2.1.0.yaml: general_protocol orchid-calphad-fit@2.1.0
+  general/orchid-calphad-fit@2.1.1.yaml: general_protocol orchid-calphad-fit@2.1.1
+  general/orchid-calphad-fit@2.1.2.yaml: general_protocol orchid-calphad-fit@2.1.2
+  specific/crni-paper-fit-step4-s1@0.1.0-draft.yaml: specific_protocol crni-paper-fit-step4-s1@0.1.0-draft
+  specific/crni-paper-fit-step4c-b@0.2.0-draft.yaml: specific_protocol crni-paper-fit-step4c-b@0.2.0-draft
+  specific/crni-paper-fit-step4c-b@1.0.0.yaml: specific_protocol crni-paper-fit-step4c-b@1.0.0
+  specific/crni-paper-fit-step4c-b@1.0.1.yaml: specific_protocol crni-paper-fit-step4c-b@1.0.1
+  specific/crni-paper-fit-step4c-b@1.0.2.yaml: specific_protocol crni-paper-fit-step4c-b@1.0.2
+  specific/crni-paper-fit-step4c-b@1.0.3.yaml: specific_protocol crni-paper-fit-step4c-b@1.0.3
+  specific/crni-paper-fit-step4c-b@1.0.4.yaml: specific_protocol crni-paper-fit-step4c-b@1.0.4
+  specific/cuzr-oneshot-h2-s7@0.1.0-draft.yaml: specific_protocol cuzr-oneshot-h2-s7@0.1.0-draft
+  run_cards/crni-mlip-spotcheck-20261107-spark3.json: run_card crni-mlip-spotcheck-20261107-spark3@1.0.0
+  run_cards/crni-oneshot-build.json: run_card crni-oneshot-build@1.0.0
+  run_cards/crni-oneshot-solids-liquid.json: run_card crni-oneshot-solids-liquid@1.0.0
+  run_cards/crni-step1_oneshot.json: run_card crni-step1_oneshot@1.0.0
+  run_cards/crni-step2_liquidus.json: run_card crni-step2_liquidus@1.0.0
+  run_cards/crni-step3_thermo.json: run_card crni-step3_thermo@1.0.0
+  run_cards/crni-step3b-check10a.json: run_card crni-step3b-check10a@1.0.0
+  run_cards/crni-step3b_thermo_crni2free.json: run_card crni-step3b_thermo_crni2free@1.0.0
+  run_cards/crni-step4_solid.json: run_card crni-step4_solid@1.0.0
+  run_cards/crni-step4c_b-10c-anneal.json: run_card crni-step4c_b-10c-anneal@1.0.0
+  run_cards/crni-step4c_b-10c-basin.json: run_card crni-step4c_b-10c-basin@1.0.0
+  run_cards/crni-step4c_b-check10a.json: run_card crni-step4c_b-check10a@1.0.0
+  run_cards/crni-step4c_b_hingefloor.json: run_card crni-step4c_b_hingefloor@1.0.0
+  run_cards/crni-uq-laplace-step4.json: run_card crni-uq-laplace-step4@1.0.0
+  run_cards/crni-uq-laplace-step4c_b.json: run_card crni-uq-laplace-step4c_b@1.0.0
+  run_cards/cuzr-r1-oneshot-build.json: run_card cuzr-r1-oneshot-build@1.0.0
+  run_cards/cuzr-r1-oneshot-solids.json: run_card cuzr-r1-oneshot-solids@1.0.0
+  run_cards/cuzr-r1-step1-eval.json: run_card cuzr-r1-step1-eval@1.0.0
+  run_cards/cuzr-r1-step2_liquidus.json: run_card cuzr-r1-step2_liquidus@1.0.0
+  run_cards/cuzr-r1-step3_thermo.json: run_card cuzr-r1-step3_thermo@1.0.0
+  run_cards/cuzr-r1-step4_zpf_dense.json: run_card cuzr-r1-step4_zpf_dense@1.0.0
+  run_cards/cuzr-r1-stepH1_topology_hinge.json: run_card cuzr-r1-stepH1_topology_hinge@1.0.0
+  run_cards/cuzr-r1-stepH2_hinge_thermo.json: run_card cuzr-r1-stepH2_hinge_thermo@1.0.0
+  run_cards/cuzr-r1-stepH2b_hinge_thermo_braga.json: run_card cuzr-r1-stepH2b_hinge_thermo_braga@1.0.0
+  dashboards/crni-paper-fit-step4-s1/dashboard_data.json: assessment_results crni-paper-fit-step4-s1-results
+  dashboards/crni-paper-fit-step4c-b/dashboard_data.json: assessment_results crni-paper-fit-step4c-b-results
+  dashboards/crni-paper-fit-step4c-b-1.0.0/dashboard_data.json: assessment_results crni-paper-fit-step4c-b-1.0.0-results
+  dashboards/crni-paper-fit-step4c-b-1.0.2/dashboard_data.json: assessment_results crni-paper-fit-step4c-b-1.0.2-results
+  dashboards/cuzr-oneshot-h2-s7/dashboard_data.json: assessment_results cuzr-oneshot-h2-s7-results
+  ORCHID links crni-paper-fit-step4-s1: 1 states linked, 646 flagged missing (reason + intake ref), 0 provisional (ids recomputed); 102 records in the local checkout
+  ORCHID links crni-paper-fit-step4c-b: 1 states linked, 694 flagged missing (reason + intake ref), 0 provisional (ids recomputed); 102 records in the local checkout
+  ORCHID links cuzr-oneshot-h2-s7: 91 states linked, 277 flagged missing (reason + intake ref), 0 provisional (ids recomputed); 683 records in the local checkout
+errors: 0
+warnings: 0

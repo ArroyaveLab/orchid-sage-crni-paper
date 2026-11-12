@@ -1,0 +1,18 @@
+{
+ "figure": "fig_crni_physics_uq",
+ "orchid_release": "provisional (unreleased (set E + private exports))",
+ "source_data": {
+  "path": "data/crni_paper_fit_figs.json",
+  "sha256": "b73b3208aa39096fb379f93fa3604f333b0221fa5870ab9dea91fbea8296d154"
+ },
+ "specific_protocol": "crni-paper-fit-step4c-b@1.0.0",
+ "labels": {
+  "ORCHID eutectic record (panel e, vertical line)": [
+   "ORC-SV7H3CNRYS"
+  ],
+  "ORCHID CrNi2 ordering record (panel e, horizontal line)": [
+   "ORC-X3KVP7D3PO"
+  ]
+ },
+ "note": "ORC-X3KVP7D3PO is a single-reader record not yet in a release (pending intake). Panels a-d plot no ORCHID records."
+}

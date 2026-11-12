@@ -1,0 +1,19 @@
+{
+ "figure": "fig_verification",
+ "release": "provisional",
+ "labels": {
+  "ORCHID eutectic line (e; 1col_2 c)": {
+   "id": "ORC-SV7H3CNRYS",
+   "T_K": 1618.0,
+   "state_id": [
+    "S-5e711ae309"
+   ]
+  },
+  "ORCHID CrNi2 line (e; 1col_2 c)": {
+   "id": "ORC-X3KVP7D3PO",
+   "T_K": 863.0,
+   "orchid_link": "missing",
+   "note": "single reader, not yet released"
+  }
+ }
+}

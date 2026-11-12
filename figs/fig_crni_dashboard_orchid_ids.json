@@ -1,0 +1,82 @@
+{
+ "figure": "fig_crni_dashboard",
+ "orchid_release": "provisional (unreleased (set E + private exports))",
+ "specific_protocol": "crni-paper-fit-step4c-b@1.0.0",
+ "inputs": [
+  {
+   "path": "<orchid-sage>/protocols/dashboards/crni-paper-fit-step4c-b-1.0.0/dashboard_data.json",
+   "sha256": "8f5961a42b8cb9f45bf75dc3526a5ef0b7a5839867949182e36f99d9df5c73b1"
+  },
+  {
+   "path": "<home>/ScientificRuns/crni-paper-fit-20261106/results/uq/laplace_step4c_b.draws.npy",
+   "sha256": "d6911272a53c257657e4d38c14e7505a4c48d4846768fca250eef326d5d3623d"
+  },
+  {
+   "path": "<home>/ScientificRuns/crni-paper-fit-20261106/results/uq/laplace_step4c_b.json",
+   "sha256": "911c92160eac849837897b04dfd4c7cb2d26bb0e2f111f97cfa6c8ca47a16e96"
+  }
+ ],
+ "labels": {},
+ "note": "No ORCHID records are plotted: the panels show the fit's objective, parameters and draws. The objective is computed over the 695 states of the evidence bundle crni-paper-fit-step4c-b@1.0.0 (ORC ids in fig_crni_sequence_orchid_ids.json).",
+ "checks": {
+  "draw_projection_max_abs_diff_vs_dashboard": 1.8031654838157607e-06
+ },
+ "off_scale_in_panel_d": [
+  [
+   "step3_thermo",
+   "s4_perturbed",
+   [
+    -2.4363981948094118,
+    -1.158908558090784
+   ]
+  ],
+  [
+   "step3_thermo",
+   "s5_perturbed",
+   [
+    -2.4682267783130483,
+    -1.179244770880084
+   ]
+  ],
+  [
+   "step3_thermo",
+   "s0_start",
+   [
+    -2.4306368323925653,
+    -1.1541502314231773
+   ]
+  ],
+  [
+   "step3_thermo",
+   "s1_perturbed",
+   [
+    -2.414963603214935,
+    -1.146708552984824
+   ]
+  ],
+  [
+   "step3_thermo",
+   "s3_perturbed",
+   [
+    -2.4223712027936717,
+    -1.1448878665422972
+   ]
+  ],
+  [
+   "step3_thermo",
+   "s6_perturbed",
+   [
+    -2.419526631500425,
+    -1.1612834131351506
+   ]
+  ],
+  [
+   "step3_thermo",
+   "s2_perturbed",
+   [
+    -2.2564575977561048,
+    -1.1644274301109308
+   ]
+  ]
+ ]
+}

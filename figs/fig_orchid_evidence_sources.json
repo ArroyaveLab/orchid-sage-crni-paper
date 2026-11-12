@@ -1,0 +1,66 @@
+{
+ "figure": "fig_orchid_evidence",
+ "kind": "data figure (ORCHID records, tag provisional; no badge or logo)",
+ "sources": [
+  {
+   "path": "data/hero_crni_zpf_points.json",
+   "sha256": "a5b623cb3794a89879cef05a7fb9453182f69d30280a88aeb13dd22e2ebd9f0e",
+   "role": "hero_data"
+  },
+  {
+   "path": "data/fig_orchid_activities.json",
+   "sha256": "eab57f9e3ff38cadf84e8a27b91a9101bf21d9c84d95c184abc9afacd86bf140",
+   "role": "activities"
+  },
+  {
+   "path": "<orchid-sage>/assessments/crni-paper-fit-step4c-b/evidence/states@1.1.0.json",
+   "sha256": "b2a93c9de507ee9bae1e463df61dc4b7269a8eaa8017a45c0f710948012988a2",
+   "role": "states"
+  },
+  {
+   "path": "<home>/ScientificRuns/crni-paper-fit-20261106/data/hinge/step4c_hinge_floor.json",
+   "sha256": "4ab667e875b304bfff96022d67e82af617429e3a0162e58d839c0238b65604df",
+   "role": "hinge_input"
+  },
+  {
+   "path": "<home>/ScientificRuns/crni-paper-fit-20261106/results/step4c_b_hinge_floor.json",
+   "sha256": "8f7dd81cd84c61cf81f9b751e661e133db8306ec4f334176eb2d4687929ad28f",
+   "role": "hinge_floor"
+  }
+ ],
+ "tile2": {
+  "record_id": "ORC-SV7H3CNRYS",
+  "pid": "doi:10.1016/j.calphad.2021.102268/p13/text-01/s04#phase_transition",
+  "record_id_recomputed": "ORC-SV7H3CNRYS",
+  "state_id": "S-5e711ae309",
+  "state_class_id": "C-4e0b63a429",
+  "orchid_release": "v2026.10",
+  "provisional_line": "generic form (docs/ID_SCHEME.md sections 6-7), not a Cr-Ni record"
+ },
+ "tile4": {
+  "pairs": 878,
+  "raised_by_floor": 868,
+  "tier_counts": {
+   "certain": 673,
+   "less_certain": 186,
+   "uncertain": 19
+  },
+  "tier_J": {
+   "certain": 10.0,
+   "less_certain": 50.0,
+   "uncertain": 100.0
+  },
+  "bundle_tier_counts_not_used": {
+   "certain": 673,
+   "less_certain": 186,
+   "uncertain": 19
+  },
+  "sigma_median_by_tier": {
+   "certain": 178.64479520296106,
+   "less_certain": 187.5201513059029,
+   "uncertain": 100.0
+  }
+ },
+ "tile5_points": 165,
+ "tile6_activities": 65
+}

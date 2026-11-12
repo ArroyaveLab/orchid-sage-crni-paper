@@ -1,0 +1,16 @@
+# Accepted findings of scripts/check_public.py: "REGEX" or "path-glob::REGEX" (the matched text must match REGEX).
+# the scanner, the arXiv check and this file define the patterns they look for
+scripts/check_public.py::.
+scripts/arxiv_flatten.py::^(/Users/|/home/|/private/tmp|/tmp/claude-)$
+.public-allow::.
+CALPHAD_SUBMISSION_CHECKLIST.md::^/private/tmp$
+# a placeholder address in the template example
+README.md::^first\.author@example\.edu$
+# our own PDFs (paper, SI, diff, figures): not publisher material
+*.pdf::restricted
+# records name machine-specific locations by placeholder (<orchid-sage>, <home>; scripts/paths.py): no tilde-slash path,
+# DGX node name or host name is accepted in data/, figs/ or drafts/
+# the SI table builder's redaction pattern for DGX node aliases (it removes host names from rendered records)
+scripts/build_si_tables.py::^spark-b$
+# compressed image bytes that happen to spell an address (not text; regenerated 7 Nov 2026 at the Digital Discovery widths)
+figs/fig_verification.png::^th@V\.GY$
